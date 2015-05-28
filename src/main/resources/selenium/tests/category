@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://jahiacommerce.ebiznext.com/" />
+<title>brand</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">brand</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/DigitalFactory/sites/acmesport/home.html</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Categories</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(1) div.span3:nth-of-type(1) span</td>
+	<td>Fitness</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(1) div.span3:nth-of-type(1) &gt; ul &gt; li:nth-of-type(1) span</td>
+	<td>Exercise Mats</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(1) div.span3:nth-of-type(1) &gt; ul &gt; li:nth-of-type(2) span</td>
+	<td>Hand Grips</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(1) div.span3:nth-of-type(1) &gt; ul &gt; li:nth-of-type(3) span</td>
+	<td>Fitness Clothing</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(1) div.span3:nth-of-type(1) &gt; ul &gt; li:nth-of-type(4) span</td>
+	<td>Fitness Subscriptions</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(1) div.span3:nth-of-type(1) &gt; ul &gt; li:nth-of-type(5) span</td>
+	<td>Fitness Machines</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(1) div.span3:nth-of-type(2) span</td>
+	<td>Football</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(1) div.span3:nth-of-type(2) &gt; ul &gt; li:nth-of-type(1) span</td>
+	<td>Footballs</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(1) div.span3:nth-of-type(2) &gt; ul &gt; li:nth-of-type(2) span</td>
+	<td>Football Clothing</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(1) div.span3:nth-of-type(2) &gt; ul &gt; li:nth-of-type(3) span</td>
+	<td>Football Events</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(1) div.span3:nth-of-type(2) &gt; ul &gt; li:nth-of-type(4) span</td>
+	<td>Football Boots</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(1) div.span3:nth-of-type(3) span</td>
+	<td>Tennis</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(1) div.span3:nth-of-type(3) &gt; ul &gt; li:nth-of-type(1) span</td>
+	<td>Tennis Balls</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(1) div.span3:nth-of-type(3) &gt; ul &gt; li:nth-of-type(2) span</td>
+	<td>Tennis Rackets</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(1) div.span3:nth-of-type(3) &gt; ul &gt; li:nth-of-type(3) span</td>
+	<td>Tennis Shoes</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(1) div.span3:nth-of-type(3) &gt; ul &gt; li:nth-of-type(4) span</td>
+	<td>Tennis Clothing</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(1) div.span3:nth-of-type(3) &gt; ul &gt; li:nth-of-type(5) span</td>
+	<td>Tennis Accessories</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(1) div.span3:nth-of-type(4) span</td>
+	<td>Cycling</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(1) div.span3:nth-of-type(4) &gt; ul &gt; li:nth-of-type(1) span</td>
+	<td>Bike Tyres</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(1) div.span3:nth-of-type(4) &gt; ul &gt; li:nth-of-type(2) span</td>
+	<td>Bike Helmets</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(1) div.span3:nth-of-type(4) &gt; ul &gt; li:nth-of-type(3) span</td>
+	<td>Mountain Bikes</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(1) div.span3:nth-of-type(4) &gt; ul &gt; li:nth-of-type(4) span</td>
+	<td>Racing Bikes</td>
+</tr>
+<!---->
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Football</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(1)</td>
+	<td>Categories</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(1) li:nth-of-type(1)</td>
+	<td>Football Boots 5</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(1) li:nth-of-type(2)</td>
+	<td>Footballs 5</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(1) li:nth-of-type(3)</td>
+	<td>Football Shirts 4</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(1) li:nth-of-type(4)</td>
+	<td>Football Events 4</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(1) li:nth-of-type(5)</td>
+	<td>Football Shorts 3</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(1) li:nth-of-type(6)</td>
+	<td>Football Socks 3</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(2)</td>
+	<td>Brands</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(2) li:nth-of-type(1)</td>
+	<td>Ambro 4</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(2) li:nth-of-type(2)</td>
+	<td>Indiana 3</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(2) li:nth-of-type(3)</td>
+	<td>Dynamics 3</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(2) li:nth-of-type(4)</td>
+	<td>Nuke 2</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(2) li:nth-of-type(5)</td>
+	<td>ACME Wear 2</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(2) li:nth-of-type(6)</td>
+	<td>Gattopardo 2</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(2) li:nth-of-type(7)</td>
+	<td>Adidos 1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(3)</td>
+	<td>Prices</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(3) li:nth-of-type(1)</td>
+	<td>EUR0.00 to EUR50.00 15</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(3) li:nth-of-type(2)</td>
+	<td>EUR50.00 to EUR100.00 1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(3) li:nth-of-type(3)</td>
+	<td>EUR100.00 to EUR150.00 5</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(3) li:nth-of-type(4)</td>
+	<td>EUR150.00 to EUR200.00 2</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(3) li:nth-of-type(5)</td>
+	<td>EUR1,500.00 to EUR1,550.00 1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(4)</td>
+	<td>Tags</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(4) li:nth-of-type(1)</td>
+	<td>men 9</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(4) li:nth-of-type(2)</td>
+	<td>women 6</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(4) li:nth-of-type(3)</td>
+	<td>championship 1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(5)</td>
+	<td>Category</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(5) li:nth-of-type(1)</td>
+	<td>Premium 4</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(5) li:nth-of-type(2)</td>
+	<td>Standard 4</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(5) li:nth-of-type(3)</td>
+	<td>VIP 3</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(6)</td>
+	<td>Size</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(6) li:nth-of-type(1)</td>
+	<td>M 4</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(6) li:nth-of-type(2)</td>
+	<td>L 2</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(6) li:nth-of-type(3)</td>
+	<td>37 1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(6) li:nth-of-type(4)</td>
+	<td>38 1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(6) li:nth-of-type(5)</td>
+	<td>41 1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(6) li:nth-of-type(6)</td>
+	<td>42 1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(6) li:nth-of-type(7)</td>
+	<td>S 1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(1) div.span3:nth-of-type(1) h3</td>
+	<td>England Football</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(1) div.span3:nth-of-type(2) h3</td>
+	<td>Champion Blue Football</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(1) div.span3:nth-of-type(3) h3</td>
+	<td>Green Mens Football Training Shirt</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(1) div.span3:nth-of-type(4) h3</td>
+	<td>Vortex Football Boots</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(2) div.span3:nth-of-type(1) h3</td>
+	<td>Europaleague Bayern München - Real Madrid</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(2) div.span3:nth-of-type(2) h3</td>
+	<td>Star 300 Football</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(2) div.span3:nth-of-type(3) h3</td>
+	<td>Red Mens Football Socks</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(2) div.span3:nth-of-type(4) h3</td>
+	<td>Red Womens Football Shirt</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(3) div.span3:nth-of-type(1) h3</td>
+	<td>Evospeed Football Boots</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(3) div.span3:nth-of-type(2) h3</td>
+	<td>Pale Blue and Black Football Socks</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(3) div.span3:nth-of-type(3) h3</td>
+	<td>Electric Blue Womens Football Shirt</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(3) div.span3:nth-of-type(4) h3</td>
+	<td>Football World Cup Semi-Finals</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(4) div.span3:nth-of-type(1) h3</td>
+	<td>Football World Cup Quarter Finals</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(4) div.span3:nth-of-type(2) h3</td>
+	<td>Esquadra Football Boots</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(4) div.span3:nth-of-type(3) h3</td>
+	<td>Yellow Cotton Football Shorts</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(4) div.span3:nth-of-type(4) h3</td>
+	<td>Red Nylon Football Shorts</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(5) div.span3:nth-of-type(1) h3</td>
+	<td>Black Football Socks</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(5) div.span3:nth-of-type(2) h3</td>
+	<td>Europaleague Guingamp - Sparta Prague</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(5) div.span3:nth-of-type(3) h3</td>
+	<td>Angel Womens Football Boots</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(5) div.span3:nth-of-type(4) h3</td>
+	<td>Foam Football</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(6) div.span3:nth-of-type(1) h3</td>
+	<td>Navy Blue Nylon Football Shorts</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(6) div.span3:nth-of-type(2) h3</td>
+	<td>Blue Mens Football Shirt with Burgundy Stripes</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(6) div.span3:nth-of-type(3) h3</td>
+	<td>Superteam Football Boots</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(6) div.span3:nth-of-type(4) h3</td>
+	<td>Classic White Football</td>
+</tr>
+<!---->
+<tr>
+	<td>clickAndWait</td>
+	<td>link=EUR0.00 to EUR50.00 15</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(1)</td>
+	<td>Your Choices</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(1) li:nth-of-type(1)</td>
+	<td>EUR0.00 to EUR50.00 X</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(2)</td>
+	<td>Categories</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(2) li:nth-of-type(1)</td>
+	<td>Footballs 5</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(2) li:nth-of-type(2)</td>
+	<td>Football Shirts 4</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(2) li:nth-of-type(3)</td>
+	<td>Football Shorts 3</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(2) li:nth-of-type(4)</td>
+	<td>Football Socks 3</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(3)</td>
+	<td>Brands</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(3) li:nth-of-type(1)</td>
+	<td>Indiana 3</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(3) li:nth-of-type(2)</td>
+	<td>Dynamics 3</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(3) li:nth-of-type(3)</td>
+	<td>Ambro 3</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(3) li:nth-of-type(4)</td>
+	<td>ACME Wear 2</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(3) li:nth-of-type(5)</td>
+	<td>Adidos 1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(4)</td>
+	<td>Prices</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(4) li:nth-of-type(1)</td>
+	<td>EUR50.00 to EUR100.00 1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(4) li:nth-of-type(2)</td>
+	<td>EUR100.00 to EUR150.00 5</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(4) li:nth-of-type(3)</td>
+	<td>EUR150.00 to EUR200.00 2</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(4) li:nth-of-type(4)</td>
+	<td>EUR1,500.00 to EUR1,550.00 1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(5)</td>
+	<td>Tags</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(5) li:nth-of-type(1)</td>
+	<td>men 5</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(5) li:nth-of-type(2)</td>
+	<td>women 5</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(6)</td>
+	<td>Size</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(6) li:nth-of-type(1)</td>
+	<td>M 4</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(6) li:nth-of-type(2)</td>
+	<td>L 2</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(6) li:nth-of-type(3)</td>
+	<td>S 1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(1) div.span3:nth-of-type(1) h3</td>
+	<td>England Football</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(1) div.span3:nth-of-type(2) h3</td>
+	<td>Champion Blue Football</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(1) div.span3:nth-of-type(3) h3</td>
+	<td>Green Mens Football Training Shirt</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(1) div.span3:nth-of-type(4) h3</td>
+	<td>Star 300 Football</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(2) div.span3:nth-of-type(1) h3</td>
+	<td>Red Mens Football Socks</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(2) div.span3:nth-of-type(2) h3</td>
+	<td>Red Womens Football Shirt</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(2) div.span3:nth-of-type(3) h3</td>
+	<td>Pale Blue and Black Football Socks</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(2) div.span3:nth-of-type(4) h3</td>
+	<td>Electric Blue Womens Football Shirt</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(3) div.span3:nth-of-type(1) h3</td>
+	<td>Yellow Cotton Football Shorts</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(3) div.span3:nth-of-type(2) h3</td>
+	<td>Red Nylon Football Shorts</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(3) div.span3:nth-of-type(3) h3</td>
+	<td>Black Football Socks</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(3) div.span3:nth-of-type(4) h3</td>
+	<td>Foam Football</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(4) div.span3:nth-of-type(1) h3</td>
+	<td>Navy Blue Nylon Football Shorts</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(4) div.span3:nth-of-type(2) h3</td>
+	<td>Blue Mens Football Shirt with Burgundy Stripes</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(4) div.span3:nth-of-type(3) h3</td>
+	<td>Classic White Football</td>
+</tr>
+<tr>
+	<td>assertElementNotPresent</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(4) div.span3:nth-of-type(4) h3</td>
+	<td></td>
+</tr>
+<!---->
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Indiana 3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(1)</td>
+	<td>Your Choices</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(1) li:nth-of-type(1)</td>
+	<td>Indiana X</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(1) li:nth-of-type(2)</td>
+	<td>EUR0.00 to EUR50.00 X</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(2)</td>
+	<td>Categories</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(2) li:nth-of-type(1)</td>
+	<td>Football Shorts 2</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(2) li:nth-of-type(2)</td>
+	<td>Footballs 1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(3)</td>
+	<td>Brands</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(3) li:nth-of-type(1)</td>
+	<td>Dynamics 3</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(3) li:nth-of-type(2)</td>
+	<td>Ambro 3</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(3) li:nth-of-type(3)</td>
+	<td>ACME Wear 2</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(3) li:nth-of-type(4)</td>
+	<td>Adidos 1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(4)</td>
+	<td>Tags</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(4) li:nth-of-type(1)</td>
+	<td>men 2</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(4) li:nth-of-type(2)</td>
+	<td>women 2</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(1) div.span3:nth-of-type(1) h3</td>
+	<td>Star 300 Football</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(1) div.span3:nth-of-type(2) h3</td>
+	<td>Red Nylon Football Shorts</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(1) div.span3:nth-of-type(3) h3</td>
+	<td>Navy Blue Nylon Football Shorts</td>
+</tr>
+<tr>
+	<td>assertElementNotPresent</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(1) div.span3:nth-of-type(4) h3</td>
+	<td></td>
+</tr>
+<!---->
+<tr>
+	<td>clickAndWait</td>
+	<td>link=men 2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(1)</td>
+	<td>Your Choices</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(1) li:nth-of-type(1)</td>
+	<td>Indiana X</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(1) li:nth-of-type(2)</td>
+	<td>EUR0.00 to EUR50.00 X</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(1) li:nth-of-type(3)</td>
+	<td>men X</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(2)</td>
+	<td>Categories</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(2) li:nth-of-type(1)</td>
+	<td>Football Shorts 2</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(3)</td>
+	<td>Brands</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(3) li:nth-of-type(1)</td>
+	<td>ACME Wear 2</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(3) li:nth-of-type(2)</td>
+	<td>Adidos 1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(3) li:nth-of-type(3)</td>
+	<td>Dynamics 1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(3) li:nth-of-type(4)</td>
+	<td>Ambro 1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(4)</td>
+	<td>Tags</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(4) li:nth-of-type(1)</td>
+	<td>women 2</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(1) div.span3:nth-of-type(1) h3</td>
+	<td>Red Nylon Football Shorts</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(1) div.span3:nth-of-type(2) h3</td>
+	<td>Navy Blue Nylon Football Shorts</td>
+</tr>
+<tr>
+	<td>assertElementNotPresent</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(1) div.span3:nth-of-type(3) h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementNotPresent</td>
+	<td>css=div.span8 div.row-fluid:nth-of-type(1) div.span3:nth-of-type(4) h3</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

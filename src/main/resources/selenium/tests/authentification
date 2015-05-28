@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://jahiacommerce.ebiznext.com/" />
+<title>home-non-connecte</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">home-non-connecte</td></tr>
+</thead><tbody>
+<!--Ce test permet de vérifier la fonctionnalité de login-->
+<tr>
+	<td>open</td>
+	<td>/DigitalFactory/sites/acmesport/home.html</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Log in</td>
+	<td></td>
+</tr>
+<!---->
+<!--Vérification que les champs requis doivent bien être renseignés-->
+<tr>
+	<td>clickAndWait</td>
+	<td>id=_eventId_next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.control-group.error input[name=&quot;email&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.control-group.error input[name=&quot;password&quot;]</td>
+	<td></td>
+</tr>
+<!---->
+<!--Test du compte inconnu-->
+<tr>
+	<td>type</td>
+	<td>css=input[name=&quot;email&quot;]</td>
+	<td>email.inconnu@test.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input[name=&quot;password&quot;]</td>
+	<td>1234</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=_eventId_next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=p.text-error</td>
+	<td>Account doesn't exist</td>
+</tr>
+<!---->
+<!--Test du mot de passe incorrect-->
+<tr>
+	<td>type</td>
+	<td>css=input[name=&quot;email&quot;]</td>
+	<td>existing.account@test.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input[name=&quot;password&quot;]</td>
+	<td>bad password</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=_eventId_next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=p.text-error</td>
+	<td>Password error</td>
+</tr>
+<!---->
+<!--cas nominal-->
+<tr>
+	<td>type</td>
+	<td>css=input[name=&quot;email&quot;]</td>
+	<td>existing.account@test.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input[name=&quot;password&quot;]</td>
+	<td>1234</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=_eventId_next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=ul li.dropdown a</td>
+	<td>*Existing Account</td>
+</tr>
+</tbody></table>
+</body>
+</html>

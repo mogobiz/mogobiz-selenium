@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://jahiacommerce.ebiznext.com/" />
+<title>home-non-connecte</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">home-non-connecte</td></tr>
+</thead><tbody>
+<!--Ce test permet de vérifier la fonctionnalité de mise à jour de l'adresse de facturation-->
+<!--Ce test nécessite que l'utilisateur soit authentifié-->
+<tr>
+	<td>open</td>
+	<td>/DigitalFactory/sites/acmesport/home.html</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=My Profile</td>
+	<td></td>
+</tr>
+<!---->
+<!--Vérification de la création d'adresse de livraison à partir de celle de facturation-->
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='Create new address using billing address']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//section[@id='bootstrap-layer-container-rows-a']/div/div/div/p[6]</td>
+	<td>Mrs New Existing New Account*1111111111*new road*new road2*new extra*75015 Paris 15*Paris Ile-de-France France*</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//section[@id='bootstrap-layer-container-rows-a']/div/div/div/p[7]/input</td>
+	<td>This address is the current address</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//section[@id='bootstrap-layer-container-rows-a']/div/div/div/p[6]/input</td>
+	<td>Use this address</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='Create new address']</td>
+	<td></td>
+</tr>
+<!---->
+<!--Vérification que les champs requis doivent bien être renseignés-->
+<tr>
+	<td>clickAndWait</td>
+	<td>id=_eventId_next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.control-group.error input[name=&quot;firstname&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.control-group.error input[name=&quot;lastname&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.control-group.error input[name=&quot;phone&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.control-group.error input[name=&quot;road&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.control-group.error input[name=&quot;city&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.control-group.error input[name=&quot;postalCode&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.control-group.error select[name=&quot;country&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.control-group.error select[name=&quot;state&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.control-group.error select[name=&quot;substate&quot;]</td>
+	<td></td>
+</tr>
+<!---->
+<!--On Spécifie des valeurs et on valide-->
+<tr>
+	<td>click</td>
+	<td>css=input[value=&quot;MR&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input[name=&quot;firstname&quot;]</td>
+	<td>Create</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input[name=&quot;lastname&quot;]</td>
+	<td>Shipping</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input[name=&quot;phone&quot;]</td>
+	<td>0123456789</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input[name=&quot;road&quot;]</td>
+	<td>road</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input[name=&quot;road2&quot;]</td>
+	<td>road2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=textarea[name=&quot;extra&quot;]</td>
+	<td>extra</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input[name=&quot;city&quot;]</td>
+	<td>Paris</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input[name=&quot;postalCode&quot;]</td>
+	<td>75000</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>css=select[name=&quot;country&quot;]</td>
+	<td>label=France</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=select[name=&quot;state&quot;] option:contains(Ile-de-France)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>css=select[name=&quot;state&quot;]</td>
+	<td>label=Ile-de-France</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=select[name=&quot;substate&quot;] option:contains(Paris)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>css=select[name=&quot;substate&quot;]</td>
+	<td>label=Paris</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=_eventId_next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//section[@id='bootstrap-layer-container-rows-a']/div/div/div/p[6]/input</td>
+	<td>This address is the current address</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//section[@id='bootstrap-layer-container-rows-a']/div/div/div/p[6]</td>
+	<td>Mr Create Shipping*01 23 45 67 89*road*road2*extra*75000 Paris*Paris Ile-de-France France*</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//section[@id='bootstrap-layer-container-rows-a']/div/div/div/p[5]/input</td>
+	<td>Use this address</td>
+</tr>
+<!---->
+<!--Selection d'une autre adresse-->
+<tr>
+	<td>clickAndWait</td>
+	<td>//section[@id='bootstrap-layer-container-rows-a']/div/div/div/p/input</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//section[@id='bootstrap-layer-container-rows-a']/div/div/div/p/input</td>
+	<td>This address is the current address</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//section[@id='bootstrap-layer-container-rows-a']/div/div/div/p[6]/input</td>
+	<td>Use this address</td>
+</tr>
+<!---->
+<!--Edition de l'adresse (cas nominal)-->
+<tr>
+	<td>clickAndWait</td>
+	<td>//section[@id='bootstrap-layer-container-rows-a']/div/div/div/p[6]/input[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>css=input[value=&quot;MR&quot;]</td>
+	<td>on</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>css=input[name=&quot;firstname&quot;]</td>
+	<td>Create</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>css=input[name=&quot;lastname&quot;]</td>
+	<td>Shipping</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>css=input[name=&quot;phone&quot;]</td>
+	<td>01 23 45 67 89</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>css=input[name=&quot;road&quot;]</td>
+	<td>road</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>css=input[name=&quot;road2&quot;]</td>
+	<td>road2</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>css=textarea[name=&quot;extra&quot;]</td>
+	<td>extra</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>css=input[name=&quot;city&quot;]</td>
+	<td>Paris</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>css=input[name=&quot;postalCode&quot;]</td>
+	<td>75000</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input[name=&quot;firstname&quot;]</td>
+	<td>new Create</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input[name=&quot;lastname&quot;]</td>
+	<td>new Shipping</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input[name=&quot;phone&quot;]</td>
+	<td>1111111111</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input[name=&quot;road&quot;]</td>
+	<td>new road</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input[name=&quot;road2&quot;]</td>
+	<td>new road2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=textarea[name=&quot;extra&quot;]</td>
+	<td>new extra</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input[name=&quot;city&quot;]</td>
+	<td>Paris 15</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input[name=&quot;postalCode&quot;]</td>
+	<td>75015</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>css=select[name=&quot;country&quot;]</td>
+	<td>label=France</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>css=select[name=&quot;state&quot;]</td>
+	<td>label=Ile-de-France</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>css=select[name=&quot;substate&quot;]</td>
+	<td>label=Paris</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=_eventId_next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//section[@id='bootstrap-layer-container-rows-a']/div/div/div/p[6]</td>
+	<td>Mr new Create new Shipping*1111111111*new road*new road2*new extra*75015 Paris 15*Paris Ile-de-France France*</td>
+</tr>
+</tbody></table>
+</body>
+</html>

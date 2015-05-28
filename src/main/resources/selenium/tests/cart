@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://jahiacommerce.ebiznext.com/" />
+<title>cart2</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">cart2</td></tr>
+</thead><tbody>
+<!--Test l'ajout au panier et la modification du contenu du panier-->
+<tr>
+	<td>deleteAllVisibleCookies</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/DigitalFactory/sites/acmesport/home.html</td>
+	<td></td>
+</tr>
+<!---->
+<!--Test l'ajout d'un panier avec une quantité trop grande par rapport aux stocks-->
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Mens Electric Blue Gym T-Shirt</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=quantity</td>
+	<td>50</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='submit']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForAlertPresent</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertAlert</td>
+	<td>Insufficient stock</td>
+	<td></td>
+</tr>
+<!---->
+<!--Test l'ajout d'un panier avec une quantité correcte-->
+<tr>
+	<td>type</td>
+	<td>name=quantity</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@type='submit']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=a[title=&quot;Go to my cart&quot;]</td>
+	<td>2 Item(s)<br />in Cart</td>
+</tr>
+<!---->
+<!--Test l'ajout d'un autre produit avec quantité correcte-->
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Categories</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Golf Balls</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Long Golf Balls</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@type='submit']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=a[title=&quot;Go to my cart&quot;]</td>
+	<td>3 Item(s)<br />in Cart</td>
+</tr>
+<!---->
+<!--Vérification du contenu du panier-->
+<tr>
+	<td>clickAndWait</td>
+	<td>css=a[title=&quot;Go to my cart&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//section[@id='section-content']/div/div/div/div/div/table/tbody/tr/td[2]</td>
+	<td>Long Golf Balls</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//section[@id='section-content']/div/div/div/div/div/table/tbody/tr/td[3]</td>
+	<td>12 white</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//section[@id='section-content']/div/div/div/div/div/table/tbody/tr/td[5]</td>
+	<td>EUR60.00</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//section[@id='section-content']/div/div/div/div/div/table/tbody/tr/td[6]</td>
+	<td>EUR60.00</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//section[@id='section-content']/div/div/div/div/div/table/tbody/tr[2]/td[2]</td>
+	<td>Mens Electric Blue Gym T-Shirt</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//section[@id='section-content']/div/div/div/div/div/table/tbody/tr[2]/td[3]</td>
+	<td>L</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//section[@id='section-content']/div/div/div/div/div/table/tbody/tr[2]/td[5]</td>
+	<td>EUR10.80*EUR12.00</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//section[@id='section-content']/div/div/div/div/div/table/tbody/tr[2]/td[6]</td>
+	<td>EUR21.60*EUR24.00</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//section[@id='section-content']/div/div/div/div/div/dl/dd[1]</td>
+	<td>EUR81.60</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//section[@id='section-content']/div/div/div/div/div/dl/dd[2]</td>
+	<td>EUR0.00</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//section[@id='section-content']/div/div/div/div/div/dl/dd[3]</td>
+	<td>EUR81.60</td>
+</tr>
+<!---->
+<!--Test de la modification d'une quantité hors stock-->
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@name='quantity'])[2]</td>
+	<td>50</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//section[@id='section-content']/div/div/div/div/div/table/tbody/tr[2]/td[4]/a/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForAlertPresent</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertAlert</td>
+	<td>Insufficient stock</td>
+	<td></td>
+</tr>
+<!---->
+<!--Test de la modification d'une quantité correcte-->
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@name='quantity'])[2]</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//section[@id='section-content']/div/div/div/div/div/table/tbody/tr[2]/td[4]/a/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//section[@id='section-content']/div/div/div/div/div/table/tbody/tr/td[5]</td>
+	<td>EUR10.80*EUR12.00</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//section[@id='section-content']/div/div/div/div/div/table/tbody/tr/td[6]</td>
+	<td>EUR10.80*EUR12.00</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//section[@id='section-content']/div/div/div/div/div/dl/dd[1]</td>
+	<td>EUR70.80</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//section[@id='section-content']/div/div/div/div/div/dl/dd[2]</td>
+	<td>EUR0.00</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//section[@id='section-content']/div/div/div/div/div/dl/dd[3]</td>
+	<td>EUR70.80</td>
+</tr>
+<!---->
+<!--Test de l'ajout d'un coupon inconnu-->
+<tr>
+	<td>type</td>
+	<td>name=codeCoupon</td>
+	<td>INCONNU</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.icon-plus</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForAlertPresent</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertAlert</td>
+	<td>Coupon not found</td>
+	<td></td>
+</tr>
+<!---->
+<!--Test de l'ajout d'un coupon existant-->
+<tr>
+	<td>type</td>
+	<td>name=codeCoupon</td>
+	<td>10FIT</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=i.icon-plus</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//section[@id='section-content']/div/div/div/div/div/table[2]/tbody/tr[2]/td</td>
+	<td>10FIT*</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//section[@id='section-content']/div/div/div/div/div/table[2]/tbody/tr[2]/td[2]</td>
+	<td>10 % on fitness*</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//section[@id='section-content']/div/div/div/div/div/table[2]/tbody/tr[2]/td[3]</td>
+	<td>-EUR1.08</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//section[@id='section-content']/div/div/div/div/div/table[2]/tbody/tr[3]/td[2]</td>
+	<td>-EUR1.08</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//section[@id='section-content']/div/div/div/div/div/dl/dd[2]</td>
+	<td>-EUR1.08</td>
+</tr>
+<!---->
+<!--Test de la suppression d'un produit du panier-->
+<tr>
+	<td>clickAndWait</td>
+	<td>css=i.icon-remove</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//section[@id='section-content']/div/div/div/div/div/dl/dd[1]</td>
+	<td>EUR60.00</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//section[@id='section-content']/div/div/div/div/div/dl/dd[2]</td>
+	<td>EUR0.00</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//section[@id='section-content']/div/div/div/div/div/dl/dd[3]</td>
+	<td>EUR60.00</td>
+</tr>
+<!---->
+<!--Test de la suppression du coupon-->
+<tr>
+	<td>clickAndWait</td>
+	<td>//section[@id='section-content']/div/div/div/div/div/table[2]/tbody/tr[2]/td/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertNotText</td>
+	<td>//section[@id='section-content']/div/div/div/div/div/table[2]/tbody/tr[2]/td[2]</td>
+	<td>10 % on fitness*</td>
+</tr>
+</tbody></table>
+</body>
+</html>

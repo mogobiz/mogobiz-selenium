@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://jahiacommerce.ebiznext.com/" />
+<title>buyItemNoDate</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">buyItemNoDate</td></tr>
+</thead><tbody>
+<!--Ce test permet de vérifier la fonctionnalité de mise à jour de l'adresse de facturation-->
+<!--Ce test nécessite que l'utilisateur soit authentifié-->
+<tr>
+	<td>open</td>
+	<td>/DigitalFactory/sites/acmesport/home.html</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Categories</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Football Events</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Europaleague Guingamp - Sparta Prague</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=datefffffff52d734870b2848453110683b5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=.ui-datepicker-today a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@type='submit']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=a[title=&quot;Go to my cart&quot;]</td>
+	<td>1 Item(s)*in Cart</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=a[title=&quot;Go to my cart&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=continuer</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=shippingPricePath1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=_eventId_next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@value='Submit']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=img[alt=&quot;CB&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=button.backToBoutiqueButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=p.text-error</td>
+	<td>Unable to verify payment</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@value='Submit']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=img[alt=&quot;CB&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=vads_card_number</td>
+	<td>4970100000000000</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=vads_expiry_month</td>
+	<td>label=12-December</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=vads_expiry_year</td>
+	<td>2025</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=cvvid</td>
+	<td>123</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=validationButtonCard</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=a[title=&quot;Go to my cart&quot;]</td>
+	<td>0 Item(s)*in Cart</td>
+</tr>
+</tbody></table>
+</body>
+</html>

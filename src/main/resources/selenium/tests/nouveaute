@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://jahiacommerce.ebiznext.com/" />
+<title>nouveaute</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">nouveaute</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/DigitalFactory/sites/acmesport/home.html</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=h2</td>
+	<td>New</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=section.content-section h2:nth-of-type(1) + div .span3:nth-of-type(1)&nbsp;&nbsp;h3</td>
+	<td>Mountraider 200 Mountain Bike</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=section.content-section h2:nth-of-type(1) + div .span3:nth-of-type(2)&nbsp;&nbsp;h3</td>
+	<td>Play Golf on the Moon</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=section.content-section h2:nth-of-type(1) + div .span3:nth-of-type(3)&nbsp;&nbsp;h3</td>
+	<td>Lightweight Warm Trousers</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=section.content-section h2:nth-of-type(1) + div .span3:nth-of-type(4)&nbsp;&nbsp;h3</td>
+	<td>Champion Blue Football</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.paginationPosition &gt; span</td>
+	<td>Page 1 of 2 (8 results)</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=h2</td>
+	<td>New</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=section.content-section h2:nth-of-type(1) + div .span3:nth-of-type(1)&nbsp;&nbsp;h3</td>
+	<td>Road Bike Tyre 700x23</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=section.content-section h2:nth-of-type(1) + div .span3:nth-of-type(2)&nbsp;&nbsp;h3</td>
+	<td>Smart Beige Trousers</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=section.content-section h2:nth-of-type(1) + div .span3:nth-of-type(3)&nbsp;&nbsp;h3</td>
+	<td>Womens Turquoise Blue Tennis Shorts</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=section.content-section h2:nth-of-type(1) + div .span3:nth-of-type(4)&nbsp;&nbsp;h3</td>
+	<td>Country Bike Tyre 26x2</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.paginationPosition &gt; span</td>
+	<td>Page 2 of 2 (8 results)</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=See all new products</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=h2</td>
+	<td>New Products</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=section[@id='section-content'] h2 + div .span3:nth-child(1) h3</td>
+	<td>Mountraider 200 Mountain Bike</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=section[@id='section-content'] h2 + div .span3:nth-child(2) h3</td>
+	<td>Play Golf on the Moon</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=section[@id='section-content'] h2 + div .span3:nth-child(3) h3</td>
+	<td>Lightweight Warm Trousers</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=section[@id='section-content'] h2 + div .span3:nth-child(4) h3</td>
+	<td>Champion Blue Football</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.paginationPosition &gt; span</td>
+	<td>Page 1 of 4 (14 results)</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=section[@id='section-content'] h2 + div .span3:nth-child(1) h3</td>
+	<td>Road Bike Tyre 700x23</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=section[@id='section-content'] h2 + div .span3:nth-child(2) h3</td>
+	<td>Smart Beige Trousers</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=section[@id='section-content'] h2 + div .span3:nth-child(3) h3</td>
+	<td>Womens Turquoise Blue Tennis Shorts</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=section[@id='section-content'] h2 + div .span3:nth-child(4) h3</td>
+	<td>Country Bike Tyre 26x2</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.paginationPosition &gt; span</td>
+	<td>Page 2 of 4 (14 results)</td>
+</tr>
+</tbody></table>
+</body>
+</html>

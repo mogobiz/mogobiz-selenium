@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://jahiacommerce.ebiznext.com/" />
+<title>brand</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">brand</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/DigitalFactory/sites/acmesport/home.html</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Brands</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(1) div.span3:nth-of-type(1) </td>
+	<td>Raabek</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(1) div.span3:nth-of-type(2) </td>
+	<td>Jack Bauer</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(1) div.span3:nth-of-type(3) </td>
+	<td>ACME Wear</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(1) div.span3:nth-of-type(4) </td>
+	<td>Adidos</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(2) div.span3:nth-of-type(1) </td>
+	<td>Sailor Made</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(2) div.span3:nth-of-type(2) </td>
+	<td>Eagle</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(2) div.span3:nth-of-type(3) </td>
+	<td>Le Sport Français</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(2) div.span3:nth-of-type(4) </td>
+	<td>Dynamics</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(3) div.span3:nth-of-type(1) </td>
+	<td>Ambro</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(3) div.span3:nth-of-type(2) </td>
+	<td>Indiana</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(3) div.span3:nth-of-type(3) </td>
+	<td>Qantic</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(3) div.span3:nth-of-type(4) </td>
+	<td>Sportsman</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(4) div.span3:nth-of-type(1) </td>
+	<td>Gattopardo</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(4) div.span3:nth-of-type(2) </td>
+	<td>Zefyr</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(4) div.span3:nth-of-type(3) </td>
+	<td>Neolink</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(4) div.span3:nth-of-type(4) </td>
+	<td>Ohio</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(5) div.span3:nth-of-type(1) </td>
+	<td>Wilson</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(5) div.span3:nth-of-type(2) </td>
+	<td>Prinz</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(5) div.span3:nth-of-type(3) </td>
+	<td>Inozys</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(5) div.span3:nth-of-type(4) </td>
+	<td>Nuke</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(6) div.span3:nth-of-type(1) </td>
+	<td>Mozuni</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(6) div.span3:nth-of-type(2) </td>
+	<td>Müller</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(6) div.span3:nth-of-type(3) </td>
+	<td>Suuni</td>
+</tr>
+<tr>
+	<td>assertElementNotPresent</td>
+	<td>css=.span12 &gt; div.row-fluid:nth-of-type(6) div.span3:nth-of-type(4) </td>
+	<td></td>
+</tr>
+<!---->
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Adidos</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(1)</td>
+	<td>Categories</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(1) li:nth-of-type(1)</td>
+	<td>Exercise Mats 1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(1) li:nth-of-type(2)</td>
+	<td>Fitness Shorts 1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(1) li:nth-of-type(3)</td>
+	<td>Fitness T Shirts 1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(1) li:nth-of-type(4)</td>
+	<td>Football Shirts 1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(2)</td>
+	<td>Brands</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(2) li:nth-of-type(1)</td>
+	<td>Adidos 4</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(3)</td>
+	<td>Prices</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(3) li:nth-of-type(1)</td>
+	<td>EUR0.00 to EUR50.00 4</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(4)</td>
+	<td>Tags</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(4) li:nth-of-type(1)</td>
+	<td>men 1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(4) li:nth-of-type(2)</td>
+	<td>women 1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(5)</td>
+	<td>Size</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(5) li:nth-of-type(1)</td>
+	<td>M 2</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(5) li:nth-of-type(2)</td>
+	<td>S 1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.span3:nth-of-type(1) h3</td>
+	<td>Pink Girls Gym Shorts</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.span3:nth-of-type(2) h3</td>
+	<td>Yoga Black Solar Blue Mat</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.span3:nth-of-type(3) h3</td>
+	<td>Womens White Gym T-Shirt</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.span3:nth-of-type(4) h3</td>
+	<td>Blue Mens Football Shirt with Burgundy Stripes</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Exercise Mats 1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(1)</td>
+	<td>Your Choices</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(1) li:nth-of-type(1)</td>
+	<td>Exercise Mats X</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(2)</td>
+	<td>Categories</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(2) li:nth-of-type(1)</td>
+	<td>Fitness Shorts 1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(2) li:nth-of-type(2)</td>
+	<td>Fitness T Shirts 1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(2) li:nth-of-type(3)</td>
+	<td>Football Shirts 1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(3)</td>
+	<td>Brands</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(3) li:nth-of-type(1)</td>
+	<td>Adidos 1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(4)</td>
+	<td>Prices</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(4) li:nth-of-type(1)</td>
+	<td>EUR0.00 to EUR50.00 1</td>
+</tr>
+<tr>
+	<td>assertElementNotPresent</td>
+	<td>css=div.span3 h3:nth-of-type(5)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementNotPresent</td>
+	<td>css=div.span3 h3:nth-of-type(6)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.span3:nth-of-type(1) h3</td>
+	<td>Yoga Black Solar Blue Mat</td>
+</tr>
+<tr>
+	<td>assertElementNotPresent</td>
+	<td>css=div.span8 div.span3:nth-of-type(2) h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementNotPresent</td>
+	<td>css=div.span8 div.span3:nth-of-type(3) h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementNotPresent</td>
+	<td>css=div.span8 div.span3:nth-of-type(4) h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Fitness Shorts 1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(1)</td>
+	<td>Your Choices</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(1) li:nth-of-type(1)</td>
+	<td>Exercise Mats X</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(1) li:nth-of-type(2)</td>
+	<td>Fitness Shorts X</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(2)</td>
+	<td>Categories</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(2) li:nth-of-type(1)</td>
+	<td>Fitness T Shirts 1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(2) li:nth-of-type(2)</td>
+	<td>Football Shirts 1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(3)</td>
+	<td>Brands</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(3) li:nth-of-type(1)</td>
+	<td>Adidos 2</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(4)</td>
+	<td>Prices</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(4) li:nth-of-type(1)</td>
+	<td>EUR0.00 to EUR50.00 2</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(5)</td>
+	<td>Tags</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(5) li:nth-of-type(1)</td>
+	<td>women 1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(6)</td>
+	<td>Size</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(6) li:nth-of-type(1)</td>
+	<td>S 1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.span3:nth-of-type(1) h3</td>
+	<td>Pink Girls Gym Shorts</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.span3:nth-of-type(2) h3</td>
+	<td>Yoga Black Solar Blue Mat</td>
+</tr>
+<tr>
+	<td>assertElementNotPresent</td>
+	<td>css=div.span8 div.span3:nth-of-type(3) h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementNotPresent</td>
+	<td>css=div.span8 div.span3:nth-of-type(4) h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Exercise Mats X</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Fitness Shorts X</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=M 2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(1)</td>
+	<td>Your Choices</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(1) li:nth-of-type(1)</td>
+	<td>Size=M X</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(2)</td>
+	<td>Categories</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(2) li:nth-of-type(1)</td>
+	<td>Fitness T Shirts 1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(2) li:nth-of-type(2)</td>
+	<td>Football Shirts 1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(3)</td>
+	<td>Brands</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(3) li:nth-of-type(1)</td>
+	<td>Adidos 2</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(4)</td>
+	<td>Prices</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(4) li:nth-of-type(1)</td>
+	<td>EUR0.00 to EUR50.00 2</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(5)</td>
+	<td>Tags</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(5) li:nth-of-type(1)</td>
+	<td>men 1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 h3:nth-of-type(6)</td>
+	<td>Size</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span3 ul:nth-of-type(6) li:nth-of-type(1)</td>
+	<td>S 1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.span3:nth-of-type(1) h3</td>
+	<td>Womens White Gym T-Shirt</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.span8 div.span3:nth-of-type(2) h3</td>
+	<td>Blue Mens Football Shirt with Burgundy Stripes</td>
+</tr>
+<tr>
+	<td>assertElementNotPresent</td>
+	<td>css=div.span8 div.span3:nth-of-type(3) h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementNotPresent</td>
+	<td>css=div.span8 div.span3:nth-of-type(4) h3</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
