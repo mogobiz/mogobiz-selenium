@@ -7,7 +7,6 @@ import com.mogobiz.run.actors.{ActorSystemLocator}
 import com.mogobiz.run.config
 import com.mogobiz.run.es.EmbeddedElasticSearchNode
 import com.mogobiz.run.jobs.CleanCartJob
-import com.mogobiz.run.mail.EmailService
 import com.mogobiz.run.config.MogobizRoutes
 import com.mogobiz.system.{RoutedHttpService, BootedMogobizSystem}
 import spray.can.Http
@@ -23,9 +22,6 @@ object RestSelenium extends App with BootedMogobizSystem with MogobizRoutes  wit
   val p = config.Settings.config.getString("selenium-path-data")
   val esNode = startES(p)
   sys.addShutdownHook({stopES(esNode)})
-
-  //init the email service with the system Actor
-  EmailService(system, "emailService")
 
   com.mogobiz.pay.jobs.ImportRatesJob.start(system)
   com.mogobiz.pay.jobs.ImportCountriesJob.start(system)
