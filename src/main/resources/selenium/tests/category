@@ -778,46 +778,11 @@
 <tr>
 	<td>assertText</td>
 	<td>css=div.span3 h3:nth-of-type(2)</td>
-	<td>Categories</td>
-</tr>
-<tr>
-	<td>assertText</td>
-	<td>css=div.span3 ul:nth-of-type(2) li:nth-of-type(1)</td>
-	<td>Football Shorts 2</td>
-</tr>
-<tr>
-	<td>assertText</td>
-	<td>css=div.span3 h3:nth-of-type(3)</td>
-	<td>Brands</td>
-</tr>
-<tr>
-	<td>assertText</td>
-	<td>css=div.span3 ul:nth-of-type(3) li:nth-of-type(1)</td>
-	<td>ACME Wear 2</td>
-</tr>
-<tr>
-	<td>assertText</td>
-	<td>css=div.span3 ul:nth-of-type(3) li:nth-of-type(2)</td>
-	<td>Adidos 1</td>
-</tr>
-<tr>
-	<td>assertText</td>
-	<td>css=div.span3 ul:nth-of-type(3) li:nth-of-type(3)</td>
-	<td>Dynamics 1</td>
-</tr>
-<tr>
-	<td>assertText</td>
-	<td>css=div.span3 ul:nth-of-type(3) li:nth-of-type(4)</td>
-	<td>Ambro 1</td>
-</tr>
-<tr>
-	<td>assertText</td>
-	<td>css=div.span3 h3:nth-of-type(4)</td>
 	<td>Tags</td>
 </tr>
 <tr>
 	<td>assertText</td>
-	<td>css=div.span3 ul:nth-of-type(4) li:nth-of-type(1)</td>
+	<td>css=div.span3 ul:nth-of-type(2) li:nth-of-type(1)</td>
 	<td>women 2</td>
 </tr>
 <tr>

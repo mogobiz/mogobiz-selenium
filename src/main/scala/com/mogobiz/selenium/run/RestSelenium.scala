@@ -7,6 +7,7 @@ import com.mogobiz.pay.config.{MogopayRoutes}
 import com.mogobiz.run.actors.{ActorSystemLocator}
 import com.mogobiz.run.config
 import com.mogobiz.run.es.EmbeddedElasticSearchNode
+import com.mogobiz.run.jobs.CleanCartJob
 import com.mogobiz.run.config.MogobizRoutes
 import com.mogobiz.system.{RoutedHttpService, BootedMogobizSystem}
 import com.mogobiz.launch.run.Settings
