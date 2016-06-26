@@ -8,4 +8,3 @@ libraryDependencies in ThisBuild ++= Seq(
 
 mainClass in Revolver.reStart := Some("com.mogobiz.selenium.run.RestSelenium")
 
-scalariformSettings
