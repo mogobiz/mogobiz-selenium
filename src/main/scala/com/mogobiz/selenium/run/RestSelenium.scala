@@ -1,3 +1,6 @@
+/*
+ * Copyright (C) 2015 Mogobiz SARL. All rights reserved.
+ */
 package com.mogobiz.selenium.run
 
 import akka.actor.Props
@@ -11,9 +14,6 @@ import com.mogobiz.run.config.MogobizRoutes
 import com.mogobiz.system.{ActorSystemLocator, RoutedHttpService, BootedMogobizSystem}
 import com.mogobiz.launch.run.Settings
 
-/**
-  * Created by yoannbaudy on 19/12/2014.
-  */
 object RestSelenium
     extends App
     with BootedMogobizSystem
