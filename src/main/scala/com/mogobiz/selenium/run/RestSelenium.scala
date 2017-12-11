@@ -25,7 +25,6 @@ object RestSelenium
 
   val p      = config.Settings.config.getString("selenium-path-data")
   val esNode = startES(p)
-  sys.addShutdownHook({ stopES(esNode) })
 
   com.mogobiz.pay.jobs.ImportRatesJob.start(system)
   com.mogobiz.pay.jobs.ImportCountriesJob.start(system)
